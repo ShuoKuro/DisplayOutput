@@ -1,3 +1,7 @@
 fn main() {
-    print!("I am learning Rust programming language");
+    println!("{0}", 1);
+    println!("{0}{0}", 1 + 1);
+    println!("{0}{0}{0}", 1 + 1 + 1);
+    println!("{0}{0}{0}{0}", 1 + 1 + 1 + 1);
+    println!("{0}{0}{0}{0}{0}", 1 + 1 + 1 + 1 + 1);
 }
